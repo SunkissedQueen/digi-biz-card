@@ -87,6 +87,8 @@ _ChatGPT provided insights into the various frameworks and platforms that rely o
 
 - HTML
 - CSS
+- CodePen
+- GitHub
 
 ## Setup and Installation
 
@@ -307,6 +309,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Thank you for using this template to create your digital business card! If you have any questions or need further assistance, feel free to open an issue in the repository.
 
 ## Reference list:
-- Full Stack Web Development Experience. (2022). Instructor at a 4-month web development bootcamp, enabling developers to use React and Ruby on Rails platforms in an agile learning environment. LEARN Academy.
+- Free Women Web Developer with laptop Illustration by WOOBRO LTD. 
+- Full Stack Web Development Experience. (2022). Instructor at a 4-month web development bootcamp, enabling developers to use React and Ruby on Rails platforms in an agile learning environment. LEARN Academy. (Note: Bootcamp closed in 2024).
 - OpenAI. (2024). ChatGPT (June 21 version) [Large language model]. Available from https://www.openai.com/
+- W3Schools. (n.d.). HTML and CSS Tutorials. Retrieved from https://www.w3schools.com/.
 - Zakariya, C. (2024). Unlocking the Mysteries of Web Dev Basics for Aspiring Developers (Session 1) [Video file]. Women Who Code. https://www.youtube.com/watch?v=uXQtcf5X0Jc
+
