@@ -16,6 +16,7 @@ Welcome to the Digital Business Card project! This project will guide you throug
 8. [Deploying on GitHub Pages](#deploying-on-github-pages)
 9. [Contributing](#contributing)
 10. [License](#license)
+11. [Reference List](#reference-list)
     
 ---
     
@@ -186,20 +187,28 @@ _Explanations of html code are encapsulated in <!--  -->._
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<!-- body section: contains the main content -->
+<!-- body section: contains the main content that is displayed on the web page -->
 <body>
 
     <!-- a container for the profile content -->
     <div class="business-card">
 
         <!-- displays the profile picture -->
+        <div class="header">
         <img src="profile-picture.jpg" alt="Profile Picture" class="profile-img">
 
         <!-- displays the name, a short bio, contact info -->
         <h1>Your Name</h1>
         <p class="job-title">Your Job Title</p>
-        <p class="contact-info">Email: your.email@example.com</p>
-        <p class="contact-info">Phone: (123) 456-7890</p>
+        <div class="contact-info">
+            <p>Email:
+
+                <!-- mailto creates a link that opens in the user's email program to let them send an email to the designated email address -->
+                <a href="mailto:youremail@outlook.com" target="_blank">
+                  youremail@outlook.com
+                </a>
+            </p>
+        </div>
 
         <!-- contains links to social profiles with icons -->
         <div class="social-links">
@@ -233,8 +242,8 @@ body {
     background-color: #f4f4f4;
 }
 
-/* unique class name selector denoted with . */
-/* assign on the html file as class="" */
+/* unique class name selector denoted with .business-card */
+/* class="business-card" assign on the html file as an attribute on a html tag  */
 .business-card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -263,6 +272,7 @@ h1 {
     color: #555;
 }
 
+/* nested selector allow you to apply styles to elements based on their hierarchy in the HTML */
 .social-links a {
     display: inline-block;
     margin: 10px;
@@ -270,6 +280,7 @@ h1 {
     color: #0077b5;
 }
 
+/* pseudo-class selector allow you to style elements based on user interaction */
 .social-links a:hover {
     text-decoration: underline;
 }
