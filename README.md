@@ -2,6 +2,7 @@
 
 Welcome to the Digital Business Card project! This project will guide you through the process of creating a digital business card using HTML and CSS. You will also learn how to showcase the card on platforms like CodePen and GitHub. 
 
+![digi-card](https://github.com/SunkissedQueen/digi-biz-card/blob/main/digi-card.png)
 ---
 
 ## Table of Contents
