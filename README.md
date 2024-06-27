@@ -174,7 +174,7 @@ To get started, you can either use either GitHub or Codepen:
 ### Step 1: HTML Structure
 
 First, create an HTML file (e.g., `index.html`) and add the following code to create the basic structure of your business card.    
-_Explanations of html code are encapsulated in <!--  -->._  
+_Explanations of html code are encapsulated in `<!--  -->`._  
 ```html
 <!-- html section: declares the document type and language. -->
 <!DOCTYPE html>
@@ -225,7 +225,7 @@ _Explanations of html code are encapsulated in <!--  -->._
 
 Next, create a CSS file (e.g., `styles.css`) and add the following code to style your business card.  
 _CSS allows you to style HTML elements to control their appearance on web pages._  
-_Explanations of css code are encapsulated in /*  */._    
+_Explanations of css code are encapsulated in `/*  */`._    
 ```css
 /* selector { */
   /* property: value */
